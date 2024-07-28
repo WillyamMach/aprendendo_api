@@ -1,4 +1,7 @@
 |<?php 
+    header('Acess-Control-Allow-Header: Content-Type');
+    header('Acess-Control-Allow-Methods: GET, POST');
+    header("Access-Control-Allow-Origin; *");
     header("Content-Type: application/json");
 
     $users = [
